@@ -8,11 +8,6 @@ x_data = torch.tensor(data)
 np_array = np.array(data)
 x_np = torch.from_numpy(np_array)
 
-print('np_array')
-print(np_array)
-print('x_np')
-print(x_np)
-
 x_ones = torch.ones_like(x_data) # retains the properties of x_data
 print(f"Ones Tensor: \n {x_ones} \n")
 
